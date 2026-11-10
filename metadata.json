@@ -1,0 +1,6 @@
+{
+  "name": "TradingView Markets",
+  "description": "High-density real-time financial market analytics, technical charting, multi-asset screener, sector heatmaps, and live order simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

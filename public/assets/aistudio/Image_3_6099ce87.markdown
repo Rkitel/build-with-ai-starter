@@ -1,0 +1,226 @@
+---
+name: TradingView Markets
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d6d9e9'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedfd'
+  surface-container-high: '#e5e7f7'
+  surface-container-highest: '#dfe2f2'
+  on-surface: '#171b26'
+  on-surface-variant: '#434656'
+  inverse-surface: '#2c303c'
+  inverse-on-surface: '#eef0ff'
+  outline: '#737687'
+  outline-variant: '#c3c5d8'
+  surface-tint: '#004ee8'
+  primary: '#0049db'
+  on-primary: '#ffffff'
+  primary-container: '#2962ff'
+  on-primary-container: '#f7f5ff'
+  inverse-primary: '#b6c4ff'
+  secondary: '#006b59'
+  on-secondary: '#ffffff'
+  secondary-container: '#84f7db'
+  on-secondary-container: '#00725f'
+  tertiary: '#b40024'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#da2237'
+  on-tertiary-container: '#fff4f3'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dce1ff'
+  primary-fixed-dim: '#b6c4ff'
+  on-primary-fixed: '#001550'
+  on-primary-fixed-variant: '#003ab3'
+  secondary-fixed: '#84f7db'
+  secondary-fixed-dim: '#66dabf'
+  on-secondary-fixed: '#00201a'
+  on-secondary-fixed-variant: '#005143'
+  tertiary-fixed: '#ffdad8'
+  tertiary-fixed-dim: '#ffb3b0'
+  on-tertiary-fixed: '#410007'
+  on-tertiary-fixed-variant: '#92001b'
+  background: '#faf8ff'
+  on-background: '#171b26'
+  surface-variant: '#dfe2f2'
+  market-up: '#089981'
+  market-down: '#F23645'
+  surface-subtle: '#F0F3FA'
+  border-light: '#E0E3EB'
+  border-dark: '#2A2E39'
+  ticker-badge-bg: '#E8ECF5'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-ticker:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  data-mono:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: -0.01em
+  caption:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-lg: 1.5rem
+  margin: 1rem
+  margin-md: 1.5rem
+  margin-lg: 2.5rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system delivers a high-density, professional financial analytics interface engineered for rapid market comprehension. Built on the tenets of modern neo-grotesque functionalism and technical precision, the visual style prioritizes data hierarchy, legibility under high-velocity market conditions, and immediate operational clarity. 
+
+The aesthetic marries utilitarian corporate structure with high-performance digital tools:
+- **Tone:** Authoritative, real-time, analytical, and uncluttered.
+- **Visual Style:** Clean Modernist Fintech with crisp 1px structural grid dividers, zero unnecessary skeuomorphism, and intentional color accents strictly reserved for data state shifts (bullish/bearish indicators) and primary interactive triggers.
+- **Audience:** Retail traders, institutional analysts, portfolio managers, and quantitative researchers who require high data throughput without visual fatigue.
+
+## Colors
+
+The color palette enforces a strict semantic division between brand interaction, interface geometry, and market analytics:
+
+- **Primary (`#2962FF`):** The signature electric blue, reserved strictly for primary calls-to-action, focused active tabs, selection states, and interactive links. It must never compete with market delta indicators.
+- **Market State Indicators:**
+  - **Bullish / Gain (`#089981`):** Applied to positive price shifts, upward sparklines, and bid-side depth.
+  - **Bearish / Loss (`#F23645`):** Applied to negative price shifts, downward sparklines, and ask-side depth.
+- **Neutrals & Surface Layers:**
+  - **Base Canvas:** Pure `#FFFFFF` in light mode, underpinned by structural backgrounds such as `#F0F3FA` for subtle pill containers, search bars, and table header rows.
+  - **Dark Base Neutral:** `#131722` serves as high-contrast primary text in light mode, as well as the fundamental deep background for dark mode surfaces.
+  - **Grid Borders:** `#E0E3EB` delivers crisp 1px structural framing without visual weight.
+
+## Typography
+
+Typography relies on `Inter` across all structural roles to establish an authoritative neo-grotesque hierarchy. Numerical tabular balance is paramount:
+
+- **Tabular Figures:** All financial metrics, price tags, trade volume cells, and delta percentages must enforce OpenType tabular figures (`font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1;`). This prevents layout jitter during real-time tick updates.
+- **Ticker Hierarchy:** Ticker symbols (e.g., `AAPL`, `BTCUSD`) use `label-ticker` with an uppercase transformation and semi-condensed visual weighting to anchor row scans.
+- **Headlines:** Display and Hero treatments use tight letter-spacing (`-0.02em` to `-0.03em`) and heavy weights (`700`–`800`) to mirror the clean, bold visual impact of modern market dashboard entry headers.
+
+## Layout & Spacing
+
+The layout is built on a 12-column responsive fluid grid designed to maximize data throughput while preserving visual calmness:
+
+- **Grid Rhythms:**
+  - **Desktop (≥1200px):** 12 columns with `24px` (`gutter-lg`) gutters and `40px` (`margin-lg`) page margins.
+  - **Tablet (768px – 1199px):** 8 columns with `16px` (`gutter`) gutters and `24px` (`margin-md`) margins.
+  - **Mobile (<768px):** 4 columns with `12px` gutters and `16px` (`margin`) margins.
+- **Density Scaling:** Data tables and watchlists utilize a compact `8px` (`space-sm`) vertical row cell padding, expanding to `12px` (`space-md`) on high-resolution monitors. Dashboard widgets feature dense interior layouts bordered by consistent `16px` (`space-lg`) gap matrices.
+
+## Elevation & Depth
+
+This system avoids heavy, atmospheric shadows in favor of low-profile, structural separation:
+
+- **Border-First Architecture:** Visual layers are differentiated using hairline `1px solid` border rules (`#E0E3EB` in light mode, `#2A2E39` in dark mode) instead of drop shadows.
+- **Hover & Active Depth:** When elevation is required (such as dropdown command menus, search autocomplete flyouts, or modal order forms), a crisp, disciplined drop shadow is paired with a matching hairline border:
+  - *Flyout / Popover:* `box-shadow: 0 4px 16px rgba(19, 23, 34, 0.08); border: 1px solid #E0E3EB;`
+- **Surface Layering:** Background surfaces stack tonally: base canvas (`#FFFFFF`) sits beneath grouped surface containers (`#F0F3FA`), which contain elevated card tiles (`#FFFFFF`) to produce clear visual hierarchy without blur effects.
+
+## Shapes
+
+The geometric vocabulary balances modern software ergonomics with structured, high-density dashboard layouts:
+
+- **Corner Radius Scale:**
+  - Base components (buttons, input fields, and standard cards) use `roundedness: 2` (0.5rem / 8px).
+  - High-level containers, overview panels, and modal windows scale to `rounded-lg` (1rem / 16px).
+  - Micro-indicators, badge tags, and index pills use semi-rounded to full pill-shapes (`rounded-full`) to immediately contrast against square data-grid corners.
+- **Iconography & Shapes:** Crisp 2px stroke geometric icons within strict 16x16px and 20x20px boundaries. Circular identity nodes (such as index badges and exchange identifiers) provide focal grounding.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#2962FF`, text `#FFFFFF`, font-weight `600`, radius `8px`. Hover: `#1E53E5`. Active: `#1848C9`.
+- **Secondary / Ghost:** Background `transparent`, border `1px solid #E0E3EB`, text `#131722`. Hover: background `#F0F3FA`.
+- **Market Action Buttons:** Distinct Buy/Long (`#089981`) and Sell/Short (`#F23645`) solid blocks with bold tabular price indicators inside.
+
+### Chips & Badges
+- **Index Badges:** Pill-shaped (`rounded-full`) wrappers with a solid circular number avatar (e.g., `#089981` or `#2962FF` background with bold white numerals) followed by clean ticker text.
+- **Market Delta Badges:** Light-tinted background pills (`#089981` at 10% opacity for positive, `#F23645` at 10% opacity for negative) enclosing bold signed percentage text (`+1.42%`, `-0.85%`).
+
+### Search & Form Inputs
+- **Global Search:** Background `#F0F3FA`, border `1px solid transparent`, height `40px`, radius `8px`. Focus state shifts border to `#2962FF` with zero outline offset. Inline shortcut badge (`Ctrl+K`) styled in subtle mono font.
+- **Form Inputs:** Border `1px solid #E0E3EB`, crisp text `#131722`, placeholder `#787B86`.
+
+### Data Tables & Watchlists
+- **Headers:** Font-size `11px`, weight `600`, uppercase, letter-spacing `0.05em`, color `#787B86`, bottom-bordered with `1px solid #E0E3EB`.
+- **Rows:** Minimum height `44px`, horizontal border-bottom `1px solid #E0E3EB`, hover background `#F8F9FD`. Numbers aligned right with tabular figures enabled.
+
+### Cards & Market Overview Tiles
+- **Tile Surface:** Canvas background `#FFFFFF`, border `1px solid #E0E3EB`, padding `16px`.
+- **Header Structure:** Ticker symbol on the left, miniature sparkline chart in center, and real-time bid/percentage change on the right.
